@@ -5,7 +5,7 @@ const useProducts = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('../../api.json')  // One directory up
+    fetch('/api.json')  // One directory up
       .then(response => response.json())
       .then(data => {
         setProducts(data.categories);
