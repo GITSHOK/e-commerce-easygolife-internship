@@ -5,7 +5,7 @@ import ProductCard from '../ProductCard.jsx';
 function Aircrafts({ products, setCart }) { // Add setCart prop
   return (
     <div>
-      <h1>Aircrafts</h1>
+      <h1 className='header'>Aircrafts</h1>
       <div style={{ 
         display: 'grid', 
         gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', 

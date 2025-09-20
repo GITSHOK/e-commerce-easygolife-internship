@@ -70,7 +70,15 @@
   padding: 50px;
   color: #7f8c8d;
 }
+.header{
+    color: blue;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 
+    text-align: center;
+
+}
 /* Responsive design */
 @media (max-width: 768px) {
   .category-buttons {
