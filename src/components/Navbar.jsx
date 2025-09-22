@@ -17,7 +17,7 @@ function Navbar({ cart }) {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          <Link to="/">MyApp</Link>
+          <Link to="/">E commerce</Link>
         </div>
         
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
